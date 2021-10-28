@@ -75,6 +75,10 @@ p{
   right:3%;
 }
 
+.hidden-link{
+text-decoration:none;
+}
+
 .nav-item{
   padding:0 18px;
 }

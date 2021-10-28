@@ -1,165 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assorty Products</title>
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Assorty</title>
-
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fontawesome -->
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
-  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,600&family=Ubuntu:wght@700&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,600&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,600&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,600&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,600&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
-  <!-- Css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Fontawesome -->
-  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-  <!--Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-
-  <section id="title">
-    <div class="container-fluid">
-
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg ">
-      <a href="#" class="logo"><img src="./images/logo.png"></a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav-items navbar-nav ml-auto">
-          <li class="nav-item">
-              <a class="nav-link"href="#our-products">Mahsulotlar</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#about-us">Biz haqimizda</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#download">Ko'chirib olish</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#contact">Bog'lanish</a>
-          </li>
-      </ul>
-   </div>
-  </nav>
-
+  <body>
+    <section id="title">
     <!-- Title -->
-  <div class="row">
-    <div class="col-lg-6 col-md-12">
-      <h1>O'zimizning mahsulot va o'zimizcha savdoni sog'inganlar uchun.</h1>
-      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Ko'chirib olish</button>
-      <button type="button" class="btn btn-outline-light btn-lg download-button "><i class="fab fa-google-play"></i> Ko'chirib olish</button>
-    </div>
-    <div class="col-lg-6 col-md-12">
-      <img class="phone" src="images/website pic copy.png" alt="iphone-mockup">
+        <div class="container">
+            <h1 class="logo"> Assorty Products</h1>
+            <h1>Ulgurji narxlarda sotib oling!</h1>
+            <button type="button" class="btn btn-outline-light btn-lg download-button "><a href="#contact">Sotib Oling</a></button>
+        </div>
+    </section>
+
+
+
+
+  <!-- Cards -->
+<section class="cards">
+  <h2 class="cardtitle">Bizdagi maxsulotlar</h2>
+
+<div class="container-fluid cardss">
+<div class="row" id="ads">
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/alyonka.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
-   <a class="hidden-link" href="privacy.html"> </a>
+  </div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/chortok.jpg" alt="Card image cap">
+    <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 </div>
 
-  </section>
-
-
-  <!-- Features -->
-
-  <section id="features">
-    <div class="container">
-      <div class="row">
-        <div class="features-box col-lg-4">
-          <i class="fas fa-check-circle fa-4x features-icon"></i>
-          <h3>Qulay.</h3>
-          <p>Foydalanuvchi uchun qulay interfeys va ajoyib mijozlar uchun ajoyib xizmat
-            .</p>
-        </div>
-        <div class="features-box col-lg-4">
-          <i class="fas fa-truck fa-4x features-icon "></i>
-          <h3>Tez yetkazib berish</h3>
-          <p>Bir kun ichida buyurtmangizni oling yoki pulingiz qaytrabi beriladi.</p>
-        </div>
-        <div class="features-box col-lg-4">
-          <i class="far fa-handshake features-icon fa-4x"></i>
-          <h3>Sifat va qulay narx.</h3>
-          <p>Sifatli maxsulotlar cho'ntakbop narxlarda.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Testimonials -->
-
-  <section id="our-products">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-          <h2 class="our-products-text">Bizdagi maxsulotlar</h2>
-        <div class="carousel-item active">
-          <img class="our-products-image"src="images/Bernley english breakfast.png">
-        </div>
-        <div class="carousel-item">
-          <img class="our-products-image" src="images/kokant.png" >
-        </div>
-        <div class="carousel-item">
-          <img class="our-products-image" src="images/chortok.webp">
-        </div>
-        <div class="carousel-item">
-          <img class="our-products-image" src="images/image.jpg" >
-        </div>
-        <div class="carousel-item">
-          <p><a class="assorty-products" href="products.html">Hamma maxsulotlar.</a></p>
-        </div>
-    </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/maslo.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
-  </section>
+  </div>
+</div>
 
-  <!-- Pricing -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/millac.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
 
-  <section id="about-us">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/assorti.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
 
-    <h2 class="about-us-heading">Biz haqimizda</h2>
-    <p class="about-us-text">
-      Assorty logistika firmasi, 2019 yilda tashkil etilgan bo’lib, Janubiy Koreyadagi eng tez rivojlanayotgan logistika kompaniyalaridan biridir.  Bizning firma bir qator mamlakatlarning mahsulotlarini
-      Janubiy Koreyaning turli shaharlariga yetkizib beradi. 2021 yil oktabr oyida firmamiz markaziy osiyoliklarga arzon va sifatli mahsulotlarni taqdim etish maqsadida onlayn do'konini ishga tushirdi. Bu loyihamiz Janubiy Koreyada  istiqomat qilayotgan O’rta Osiyolik muxojirlarga bir qancha davlatdan shuningdek ko’p qismi O’rta Osiyodan keltirilgan halol oziq-ovqat va bir qator maxsulotlarni yetkizib berish uchun mo’ljallangan. Assorty online do’koni o’z yurtining iliq iforini sog’inganlar uchun.
-    </p>
-  </section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/tomat.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/Sadochok.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/president.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/bernley.png" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/krokant.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
 
 
-  <!-- Call to Action -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/date.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
 
-  <section id="download">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/moloko.jpg" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
 
-    <h2 class="download-heading">Uydagidek his qiling.</h3>
-    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Ko'chirib olish</button>
-    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Ko'chirib olish</button>
 
-  </section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/begemotBondi.png" alt="Card image cap">
+      <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/sprats.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
 
 
+</div>
+</div>
+</div>
+</section>
   <!-- Footer -->
 
   <footer id="contact">
-    <i class="fab fa-telegram social"></i></i> <i class="fab fa-facebook-f social"></i><i class="fab fa-instagram social"></i><i class="fas fa-envelope social"></i>
+    <i class="fab fa-telegram social"></i></i><i class="fab fa-facebook-f social"></i><i class="fab fa-instagram social"></i><i class="fas fa-envelope social"></i>
+    <p>+8201089804542</p>
+    <p>+8201089804542</p>
     <p>© Copyright 2021 Assorty</p>
 
   </footer>
-</body>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

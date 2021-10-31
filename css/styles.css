@@ -113,6 +113,12 @@ color:white;
     width: 70%;
     transform:rotate(0);
   }
+  
+  .about-us-text{
+    font-size: 3vh;
+    width: 90;
+    margin:auto;
+  }
 }
 
 /* Features */

@@ -170,10 +170,9 @@ color:white;
 
 .about-us-text{
   opacity:1;
-  width:50%;
-  margin:auto;
   text-align:justify;
-  font-size: 3vh;
+  width: 75%;
+  margin:auto;
 }
 
 .about-us-heading{

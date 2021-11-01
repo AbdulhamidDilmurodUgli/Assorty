@@ -1,0 +1,287 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@AbdulhamidDilmurodUgli
+AbdulhamidDilmurodUgli
+/
+Assorty
+Public
+1
+01
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Assorty/css/styles.css
+@AbdulhamidDilmurodUgli
+AbdulhamidDilmurodUgli Update styles.css
+Latest commit 2bc6aea 2 minutes ago
+ History
+ 1 contributor
+221 lines (180 sloc)  2.86 KB
+
+body{
+  font-family:'Montserrat-Black', sans-serif;
+}
+
+#title{
+
+  background-color:#F4A442;
+  color:white;
+}
+
+h1{
+  font-family:'Montserrat-Black', sans-serif;
+  font-size:10vh;
+  line-height:1.3;
+  font-weight: bold;
+}
+
+h2{
+  font-family:'Montserrat-Black', sans-serif;
+  font-size:3rem;
+  line-height:1.5;
+  font-weight: bold;
+  width: 95%;
+  color:white;
+}
+
+h3{
+  font-family:"Montserrat-Bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p{
+  font-family:'Montserrat-Black', sans-serif;
+  line-height:1.5;
+  font-weight: bold;
+  opacity:0.7;
+}
+
+/* Navbar and title */
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* .logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 10px!important;
+  margin-left: 0px!important;
+  opacity: 1;
+} */
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: white;
+  line-height:1.3;
+  text-decoration: none;
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 10px!important;
+  margin-left: 0px!important;
+  opacity: 1
+}
+
+.phone{
+  width:35%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 18%;
+  top: 18%;
+}
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+  color:white;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-items{
+  position:absolute;
+  right:3%;
+}
+
+.hidden-link{
+text-decoration:none;
+}
+
+
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-weight: "Montserrat-Light";
+  color:white;
+}
+
+.nav-link:hover{
+  color:#f26522;
+}
+
+ .download-button{
+   margin:5% 3% 5% 0;
+ }
+
+@media(max-width:1000px){
+
+    #title{
+      text-align:center;
+      font-size:1.5rem;
+    }
+
+  .phone{
+    position:static;
+    width: 70%;
+    transform:rotate(0);
+  }
+
+  .about-us-text{
+    font-size: 2vh;
+    width: 90;
+    margin:auto;
+    text-align: justify;
+  }
+}
+
+/* Features */
+.features-box{
+  padding:4.5%;
+  text-align:center;
+}
+
+ .features-icon{
+   color:#F4A442;
+   margin-bottom:1rem;
+ }
+
+ .features-icon:hover{
+   color: #f26522;
+ }
+
+ #features{
+   padding:7% 15%;
+   background-color:#FBF6F0;
+   position:relative;
+  }
+
+/* Testimonials */
+#our-products{
+  text-align:center;
+  background-color:#F4A442;
+}
+
+.our-products-image{
+  width:40%;
+}
+
+.our-products-text{
+  position: relative;
+  top:30px;
+}
+
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+.assorty-products{
+  text-decoration:none;
+  font-family: "Montserrat-Light";
+  line-height: 1.5;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.assorty-products:hover{
+  color: #f26522;
+}
+
+/* Pricing */
+#about-us{
+  padding:50px;
+  text-align:center;
+  background-color:#FBF6F0;
+}
+
+.about-us-text{
+  opacity:1;
+  text-align:justify;
+  width: 75%;
+  margin:auto;
+}
+
+
+.card-item{
+  padding:3% 2%;
+}
+
+/* cta */
+#download{
+  background-color: #F4A442;
+  color:white;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.download-heading{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1,5;
+  margin: 25px auto;
+}
+
+#contact{
+  background-color:#FBF6F0;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social{
+  margin:20px 10px;
+  color:black;
+}
+
+.social:hover{
+  color:#f26522;
+}
+
+
+#footer p{
+  color: black;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
